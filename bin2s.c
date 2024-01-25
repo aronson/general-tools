@@ -88,7 +88,6 @@ char * strnident(const char *src, int apple_llvm ) {
 //---------------------------------------------------------------------------------
 void showhelp(char *name) {
 //---------------------------------------------------------------------------------
-	fprintf(stderr, "%s\n", PACKAGE_STRING );
 	fprintf(stderr, "%s - convert binary files to assembly language\n", name);
 
 	fprintf(stderr, "usage: %s [option ...] [binary files ...]\n", name);
